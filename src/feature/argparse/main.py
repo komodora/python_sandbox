@@ -1,8 +1,8 @@
 import argparse
 
 
-def main(args: argparse.Namespace):
-    print(args)
+def main(args: argparse.Namespace) -> None:
+    print(args)  # noqa: T201
 
 
 if __name__ == "__main__":
